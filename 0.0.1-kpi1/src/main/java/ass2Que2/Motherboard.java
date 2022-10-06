@@ -1,30 +1,24 @@
 package ass2Que2;
 
-public class Keyboard extends Computer{
+public class Motherboard extends Computer {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Computer K1 = new Keyboard();
-		K1.show();
-		K1.keyoard();
+		Computer M2 = new Motherboard();
+		M2.show();
+		M2.motherboard();
 	}
 
 	public void show() {
 		// TODO Auto-generated method stub
-		System.out.println("Detail of Keyboard");
+		System.out.println("Detail of MotherBoard");
 	}
 
 	@Override
-	String keyoard() {
+	 String motherboard() {
 		// TODO Auto-generated method stub
-		System.out.println("This is Keyboard used for typing purpose");
-		return "This is Keyboard";
-	}
-
-	@Override
-	String motherboard() {
-		// TODO Auto-generated method stub
-		return null;
+		System.out.println("This is MotherBoard used for including some hardware parts");
+		return "This is Motherboard";
 	}
 
 	@Override
@@ -41,6 +35,12 @@ public class Keyboard extends Computer{
 
 	@Override
 	String joystick() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	String keyoard() {
 		// TODO Auto-generated method stub
 		return null;
 	}

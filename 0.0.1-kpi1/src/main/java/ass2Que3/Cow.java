@@ -5,7 +5,11 @@ public class Cow implements Runnable {
 	{
 		System.out.println("Cow is pet animal");
 	}
-
+	public String status()
+	{
+		System.out.println("Pet Animal");
+		return "Pet";
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Cow C2 = new Cow();

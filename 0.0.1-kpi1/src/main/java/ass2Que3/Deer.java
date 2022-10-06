@@ -5,6 +5,11 @@ public class Deer implements Runnable {
 	{
 		System.out.println("Deer is pet as well as wild animal");
 	}
+	public int legs()
+	{
+		System.out.println("Deer have 4 legs");
+		return 4;
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

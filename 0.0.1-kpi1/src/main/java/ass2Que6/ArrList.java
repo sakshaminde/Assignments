@@ -1,9 +1,8 @@
 package ass2Que6;
 import java.util.ArrayList;
 public class ArrList {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public int check()
+	{
 		ArrayList<String> list1 = new ArrayList<String>();
 		list1.add("a");
 		list1.add("b");
@@ -16,7 +15,7 @@ public class ArrList {
 		list2.add("f");
 		list2.add("c");
 		list2.add("34");
-		list2.add("g");
+		list2.add("c");
 		System.out.println("List2"+list2);
 		ArrayList list3 = new ArrayList();
 		list3.add("h");
@@ -38,8 +37,26 @@ public class ArrList {
 		list5.add("q");
 		list5.add("r");
 		System.out.println("List5"+list5);
+		list1.retainAll(list2);
+		list1.retainAll(list3);
+		list1.retainAll(list4);
 		list1.retainAll(list5);
 		System.out.println("Common Elements"+list1);
+		/*
+		 * int pos = list2.indexOf("c");
+		 * System.out.println("Position of duplicate element is:"+pos); return pos;
+		 */
+		String a = list1.get(0);
+		int pos = list2.indexOf(a);
+		System.out.println(pos);
+		return pos;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrList A1 = new ArrList();
+		A1.check();
+
 	}
 
 }

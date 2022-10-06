@@ -5,7 +5,11 @@ public class Buffalo implements Runnable{
 	{
 		System.out.println("Buffalo is pet animal");
 	}
-
+	public int legs()
+	{
+		System.out.println("Buffalo have 4 legs");
+		return 4;
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Buffalo B1 = new Buffalo();

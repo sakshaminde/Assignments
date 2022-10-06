@@ -1,6 +1,12 @@
 package ass2Que1;
 
 public interface Employee1 {
-	void show();
-
+	int empID();
+	String empName();
+	 int empAge();
+	 String empFatherName();
+	 String empDOB();
+	 int empWorkHr();
+	 String empWorkStatus();
+	 String empRole();
 }

@@ -5,7 +5,11 @@ public class Camel implements Runnable {
 	{
 		System.out.println("Camel is wild as well as pet animal");
 	}
-
+	public int legs()
+	{
+		System.out.println("Camel have 4 legs");
+		return 4;
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Camel C1 = new Camel();

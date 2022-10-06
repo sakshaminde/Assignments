@@ -5,7 +5,11 @@ public class Zebra implements Runnable{
 	{
 		System.out.println("Zebra is wild animal");
 	}
-
+	public int legs()
+	{
+		System.out.println("Zebra have 4 legs");
+		return 4;
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Zebra Z1 = new Zebra();

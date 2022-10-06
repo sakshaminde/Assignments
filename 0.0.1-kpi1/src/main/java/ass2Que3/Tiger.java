@@ -5,7 +5,11 @@ public class Tiger implements Runnable {
 	{
 		System.out.println("Tiger is wild animal");
 	}
-
+	public int legs()
+	{
+		System.out.println("Tiger have 4 legs");
+		return 4;
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Tiger T1 = new Tiger();

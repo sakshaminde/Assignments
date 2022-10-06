@@ -15,9 +15,64 @@ public class OperatingSystem extends Computer{
 	}
 
 	@Override
-	void os() {
+	String os() {
 		// TODO Auto-generated method stub
 		System.out.println("Operating System is System software which is used for running computer instructions");
+		return "Operating System is System software";
+	}
+
+	@Override
+	String motherboard() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	String cpu() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	String hardDisk() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	String joystick() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	String keyoard() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	String monitor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	String mouse() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	String nic() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	String RAM1() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
